@@ -24,5 +24,20 @@ let arr= new Array(64,45,"Abhishek");
 //  marks.pop()
 //  marks.shift()
 
-marks.splice()
+// marks.splice()
 console.log(marks)
+
+let marks2 = [4,54,3,64,34]
+marks = marks.concat(marks2);
+
+console.log(marks);
+
+let myobj= {
+    name:"Abhishek",
+    channel: "youtube",
+    isActive: true,
+    marks1:[32,3,43,2]
+
+}
+console.log(myobj)
+console.log(myobj.isActive)
